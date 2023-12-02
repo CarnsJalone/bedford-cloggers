@@ -1,0 +1,37 @@
+.call-to-action {
+
+    background: black;
+    position: relative;
+    text-align: center;
+
+    img.hero-image {
+        opacity: .2;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    div.text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+        h1, h2, h5 {
+            padding: 5px;
+            margin: 0px;
+        }
+
+        h1.primary {
+            font-size: 3rem;
+        }
+        h2.secondary {
+            font-size: 2rem;
+        }
+        h5.tertiary {
+            font-size: 1rem;
+        }
+
+    }
+
+}
