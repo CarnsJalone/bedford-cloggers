@@ -4,4 +4,4 @@ handlers:
     static_files: dist/bedford-cloggers/browser/index.html
     upload: dist/bedford-cloggers/browser/index.html
   - url: /
-    static_dir: dist
+    static_dir: dist/bedford-cloggers/browser

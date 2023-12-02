@@ -1,8 +1,8 @@
-<mat-toolbar color="primary" class="navbar">
-    <div color="accent">Bedford Cloggers</div>
+<mat-toolbar color="background" class="navbar">
+    <div color="background">Bedford Cloggers</div>
     <div>
-        <span><a [routerLink]="'/'">Home</a></span>
-        <span>About</span>
-        <span><a [routerLink]="'/calendar'">Calendar</a></span>
+        <span color="secondary"><a [routerLink]="'/'" [routerLinkActive]="'active'">Home</a></span>
+        <span color="secondary">About</span>
+        <span color="secondary"><a [routerLink]="'/calendar'" [routerLinkActive]="'active'">Calendar</a></span>
     </div>
 </mat-toolbar>
