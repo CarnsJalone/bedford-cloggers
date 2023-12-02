@@ -1,0 +1,7 @@
+runtime: python312
+handlers:
+  - url: /
+    static_files: dist/bedford-cloggers/browser/index.html
+    upload: dist/bedford-cloggers/browser/index.html
+  - url: /
+    static_dir: dist

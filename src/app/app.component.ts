@@ -7,7 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    CommonModule, 
+    CommonModule,
     RouterOutlet,
     NavigationComponent
   ],
