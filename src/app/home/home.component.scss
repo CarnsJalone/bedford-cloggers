@@ -12,25 +12,26 @@
 
     div.text {
         position: absolute;
+        width: 100%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
 
-        h1, h2, h5 {
+        h1, h2, p {
             padding: 5px;
             margin: 0px;
         }
 
-        h1.primary {
-            font-size: 3rem;
-        }
-        h2.secondary {
-            font-size: 2rem;
-        }
-        h5.tertiary {
-            font-size: 1rem;
-        }
+        // h1.primary {
+        //     font-size: 3rem;
+        // }
+        // h2.secondary {
+        //     font-size: 2rem;
+        // }
+        // p.tertiary {
+        //     font-size: 1rem;
+        // }
 
     }
 
