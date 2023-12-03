@@ -5,11 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "stuff": "ng generate @angular/material:navigation navigation",
+    "stuff": "ng generate c join-us",
     "build-prod" : "ng build --configuration production --base-href=.",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "gdeploy" : "gcloud app deploy --project=bedford-cloggers"
+    "gdeploy" : "npm run build-prod && gcloud app deploy --project=bedford-cloggers"
   },
   "private": true,
   "dependencies": {

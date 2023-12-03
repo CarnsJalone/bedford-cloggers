@@ -12,6 +12,11 @@ export const routes: Routes = [
         loadChildren: () => import('./calendar/calendar.module').then(m => m.CalendarModule)
     },
     {
+        path: 'join-us',
+        pathMatch: 'full',
+        loadComponent: () => import('./join-us/join-us.component').then(m => m.JoinUsComponent)
+    },
+    {
         path: '**',
         redirectTo: ''
     }

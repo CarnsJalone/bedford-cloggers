@@ -23,6 +23,16 @@
             margin: 0px;
         }
 
+        h1.primary {
+            font-size: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            h1.primary, h2.secondary, p.tertiary {
+                font-size: .9rem;
+            }
+        }
+
         // h1.primary {
         //     font-size: 3rem;
         // }
@@ -35,4 +45,8 @@
 
     }
 
+}
+
+.about-us {
+    padding: 10px;
 }
